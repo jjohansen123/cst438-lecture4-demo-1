@@ -67,6 +67,7 @@ describe("Getty api call", function() {
         getty.makeApiRequest(function(error, imgURI) {
             expect(this.statusCode).to.be.a("200");
             done();
+            
         });
     });
 }); 
