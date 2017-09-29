@@ -62,6 +62,13 @@ describe("Getty api call", function() {
         });
     }); 
     
-    
-    
+    /*
+describe("Checks", function() {
+    it("should do smthing", function(done) {
+        
+        getty.makeApiRequest(function(error, imgURI) {
+            expect
+        })    
+    })
+}*/
 }); 
